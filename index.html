@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banana language</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+</head>
+
+<body onload="init()">
+    <header class="header">
+        <img src="images/banana.jpg" alt="groot character" class="header-img" />
+        <p class="header-content">Minion Talk</p>
+    </header>
+
+    <main class="main">
+        <textarea placeholder="Enter english statement here, and we will convert it to banana"
+            id="text-input"></textarea>
+        <button id="btn-translate">Translate To Minion Talk</button>
+        <div class="loader">
+        </div>
+        <span class="translated-section">
+            <div>Translation 👇</div>
+            <div id="output"></div>
+        </span>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-heading">Is that a banana above ?</div>
+        <p class="footer-text">Apparently, Minion language is also called Banana Talk... </p>
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
